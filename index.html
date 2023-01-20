@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Mj Music Player</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="head">
+        <p>Welcome to my Music Player <br><a href="https://mayankjaiswal1709.github.io/Portfolio/">Mayank_Jaiswal</a></p>
+
+    </div>
+
+    <div class="music-player">
+
+
+        <button id="playlist">
+        <i class="fa-solid fa-angle-down"></i>
+      </button>
+
+        <img id="song-image" src="/images/ennasoana.jpg" />
+
+        <div class="song-details">
+            <p id="song-name">Enna Sona</p>
+            <p id="song-artist">Arijit Singh</p>
+        </div>
+
+        <div class="player-options">
+            <button id="shuffle">
+          <i class="fa-solid fa-shuffle"></i>
+        </button>
+
+            <button id="prev">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+
+            <button id="play">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+            <button id="pause" class="hide">
+          <i class="fa-solid fa-pause"></i>
+        </button>
+
+            <button id="next">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+
+            <button id="repeat">
+          <i class="fa-solid fa-repeat"></i>
+        </button>
+
+        </div>
+
+        <audio id="audio" preload="metadata"></audio>
+
+        <div id="progress-bar">
+            <div id="current-progress"></div>
+        </div>
+
+        <div class="time-container">
+            <span id="current-time">0:00</span>
+            <span id="max-duration">0:00</span>
+        </div>
+
+        <div id="playlist-container" class="hide">
+
+            <button id="close-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+            <ul id="playlist-songs"></ul>
+
+        </div>
+    </div>
+
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <footer>
+        <div class="footercontent">
+            <div class="bottomDesign">
+
+                <a href="https://github.com/mayankjaiswal1709" target="_blank"><img style="height: 2vh; width: 2vh;" class="icon" src="/images/github.png" /></a>
+            </div>
+            <p class="footer-text">
+                Made with
+                <!-- <i class="fas fa-heart" style="color: crimson"> </i> -->
+                <span style="color: crimson; font-size: 18px"> &hearts;</span> by Mayank
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
