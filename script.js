@@ -28,13 +28,13 @@ const songsList = [
         name: "Enna Sona",
         link: "./musics/EnnaSona.mp3",
         artist: "Arijit Singh & Mayank Jaiswal",
-        image: "/images/ennasoana.jpg",
+        image: "./ennasoana.jpg",
     },
     {
         name: "Love Me Like Me Do",
         link: "/musics/Love Me Like You Do_64(PagalWorld.com.se).mp3",
         artist: "Ellie Goulding",
-        image: "/images/lovemelikeme.jpg",
+        image: "/lovemelikeme.jpg",
     },
     {
         name: "Challa",

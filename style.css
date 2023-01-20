@@ -26,12 +26,6 @@ body {
     }
 }
 
-@media screen and (max-width: 450px) {
-    .body {
-        font-size: 14px;
-    }
-}
-
 .music-player {
     font-size: 16px;
     width: 80vw;
