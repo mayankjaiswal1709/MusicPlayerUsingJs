@@ -32,27 +32,27 @@ const songsList = [
     },
     {
         name: "Love Me Like Me Do",
-        link: "/musics/Love Me Like You Do_64(PagalWorld.com.se).mp3",
+        link: "./musics/Love Me Like You Do_64(PagalWorld.com.se).mp3",
         artist: "Ellie Goulding",
-        image: "/lovemelikeme.jpg",
+        image: "./lovemelikeme.jpg",
     },
     {
         name: "Challa",
-        link: "/musics/Challa Jab Tak Hai Jaan 128 Kbps.mp3",
+        link: "./musics/Challa Jab Tak Hai Jaan 128 Kbps.mp3",
         artist: "Rabbi Shergill",
-        image: "/images/Challa-Jab-Tak-Hai-Jaan-.jpg",
+        image: "./Challa-Jab-Tak-Hai-Jaan-.jpg",
     },
     {
         name: "Heer Ranjha",
-        link: "/musics/_ Heer Ranjha_64(PagalWorld.com.se).mp3",
+        link: "./musics/_ Heer Ranjha_64(PagalWorld.com.se).mp3",
         artist: "Rito Riba",
-        image: "/images/Heer-Ranjha-Hindi.jpg",
+        image: "./Heer-Ranjha-Hindi.jpg",
     },
     {
         name: "Samjhawan",
-        link: "/musics/02 Samjhawan - Humpty Sharma Ki Dulhania.mp3",
+        link: "./musics/02 Samjhawan - Humpty Sharma Ki Dulhania.mp3",
         artist: "Arijit Singh & Shreya Ghoshal",
-        image: "/images/samzhawa.jpg",
+        image: "./metenusmzhawa.jpg",
     },
 ];
 
