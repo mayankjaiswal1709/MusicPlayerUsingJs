@@ -43,10 +43,10 @@ const songsList = [
         image: "./Challa-Jab-Tak-Hai-Jaan-.jpg",
     },
     {
-        name: "Heer Ranjha",
-        link: "./musics/_ Heer Ranjha_64(PagalWorld.com.se).mp3",
+        name: "Aankhon mein teri",
+        link: "./musics/Ajab Si (Om Shanti Om) - K.K - 320Kbps.mp3",
         artist: "Rito Riba",
-        image: "./Heer-Ranjha-Hindi.jpg",
+        image: "./Aankhon-Mein-Teri.jpg",
     },
     {
         name: "Samjhawan",

@@ -11,7 +11,9 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 100vh;
+    height: 50vh;
+    position: fixed;
+    /* scroll-behavior: smooth; */
 }
 
 @keyframes gradient {
@@ -28,13 +30,14 @@ body {
 
 .music-player {
     font-size: 16px;
-    width: 80vw;
+    width: 70vw;
     max-width: 25em;
     background-color: #ffffff;
     padding: 3em 1.8em;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 45%;
+    height: 70vh;
     left: 50%;
     border-radius: 0.5em;
     box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
@@ -183,7 +186,18 @@ button.active i {
 
 @media screen and (max-width: 450px) {
     .music-player {
-        font-size: 14px;
+        font-size: 12px;
+        width: 60vw;
+        max-width: 25em;
+        background-color: #ffffff;
+        padding: 1em 1.8em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 55%;
+        height: 55vh;
+        left: 50%;
+        border-radius: 0.5em;
+        box-shadow: 0.6em 1.2em 3em rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -208,7 +222,9 @@ body {
     height: 80px;
     /* change the height of the waves here */
     width: 100%;
-    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
@@ -269,6 +285,7 @@ body {
 .head a {
     text-decoration: none;
     color: inherit;
+    z-index: 100;
     font-size: 12px;
 }
 
@@ -298,6 +315,31 @@ body {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .head a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 12px;
+    }
+    .head p {
+        /* background-color: red; */
+        font-weight: 700;
+        text-align: center;
+        font-size: 12px;
+        font-family: Hack, sans-serif;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #000, #fff, #000);
+        letter-spacing: 4px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: shine 10s linear infinite;
+        position: relative;
+    }
+}
+
 
 /* footer */
 
@@ -306,10 +348,12 @@ footer {
     margin-top: 0px;
     text-align: center;
     color: #fff;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .footercontent {
